@@ -1,0 +1,79 @@
+[
+  {
+    "skillGroupTitle": "Artificial Intelligence & Data Science",
+    "skills": [
+      "AI & Machine Learning, Large Language Models (LLMs), Prompt Engineering, Retrieval-Augmented Generation (RAG), LangChain",
+      "Python ecosystem: NumPy, Pandas, Matplotlib, BeautifulSoup, Jupyter Notebook"
+    ]
+  },
+  {
+    "skillGroupTitle": "Frontend Engineering & UI/UX",
+    "skills": [
+      "Responsive Web Application Design, Accessibility",
+      "HTML5, ES6, CSS3, SASS/SCSS, Styled Components, Bootstrap, Tailwind CSS",
+      "React.js, JSX, React Hooks, Redux, Zustand, Axios, TanStack Query",
+      "Build & bundling tools: Vite, Webpack, Bun"
+    ]
+  },
+  {
+    "skillGroupTitle": "Backend Development & Frameworks",
+    "skills": [
+      "Node.js, Express, Mongoose, FastAPI, Flask, JWT",
+      "ASP.NET, MVC, .NET Core, Entity Framework, LINQ, Dependency Injection (DI)",
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "skillGroupTitle": "Programming & Core Computer Science",
+    "skills": [
+      "Python, JavaScript, TypeScript, Ruby, C#",
+      "Object-Oriented Design (OOD), Design Patterns",
+      "Data Structures & Algorithms"
+    ]
+  },
+  {
+    "skillGroupTitle": "APIs, Integration & Messaging",
+    "skills": [
+      "RESTful APIs, Web API, SOAP",
+      "Asynchronous Programming, JSON, XML"
+    ]
+  },
+  {
+    "skillGroupTitle": "Databases, Cloud & Containerization",
+    "skills": [
+      "Relational DBs: MSSQL, PostgreSQL, MySQL",
+      "NoSQL: MongoDB, DynamoDB (AWS exposure)",
+      "ORMs: Prisma, Mongoose, Entity Framework",
+      "Cloud Platforms: AWS (VPC, EC2, Route 53, S3, Lambda), Azure Blob, SaaS, IaaS",
+      "Containers & Orchestration: Docker, Kubernetes",
+      "Server Configuration & Reverse Proxy: Nginx, Certbot (SSL)",
+      "Database Design & Optimization"
+    ]
+  },
+  {
+    "skillGroupTitle": "Software Architecture & Methodologies",
+    "skills": [
+      "System Design, Technical & System Analysis, Microservices Architecture, Event-Driven Design",
+      "RESTful & SOAP Service Design",
+      "MERN, PERN",
+      "OOP, Advanced Design Patterns",
+      "Agile/Scrum, Waterfall, Test-Driven Development (TDD)",
+      "Code Reviews & Pair Programming"
+    ]
+  },
+  {
+    "skillGroupTitle": "Testing, QA & DevOps",
+    "skills": [
+      "Unit, Integration & End-to-End Testing (Jest, React Testing Library, Cypress, Cucumber)",
+      "API Testing: Postman, Swagger",
+      "Version Control & CI/CD: Git, GitHub/GitLab, Azure DevOps, TFS, automated pipelines"
+    ]
+  },
+  {
+    "skillGroupTitle": "Enterprise & Domain-Specific Tools",
+    "skills": [
+      "Healthcare / Insurance / Lifescience: QNXT",
+      "Data Integration & ETL: SSIS, ETL processes"
+    ]
+  }
+]

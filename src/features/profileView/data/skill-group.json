@@ -1,0 +1,23 @@
+[
+  {
+    "group": "Programming Languages",
+    "skills": [
+      {
+        "name": "C#",
+        "experience": 0
+      },
+      {
+        "name": "Python",
+        "experience": 0
+      },
+      {
+        "name": "Javascript",
+        "experience": 0
+      }
+    ]
+  },
+  {
+    "group": "Architectural Patterns",
+    "skills": [{"name":"Domain Driven Design (DDD)", "experience": 0},{"name":"Microservices", "experience": 0},{"name": "Event-Driven Architecture", "experience":0},{"name": "Service Oriented Architecture", "experience":0}]
+  }
+]

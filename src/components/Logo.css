@@ -1,0 +1,11 @@
+.logo {
+  color: #ff7300;
+  background-color: #242424;
+}
+/* 
+@media (prefers-color-scheme: light) {
+  .logo {
+    color: #ff7300;
+    background-color: #ffffff;
+  }
+} */

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="420" viewBox="150 100 1420 300" style="background: black;">
+  <defs>
+    <!-- Dual-mode gradient for light/dark backgrounds -->
+    <linearGradient id="aiTechGradientDual" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffa200" />
+      <stop offset="50%" stop-color="#ffa200" />
+      <stop offset="100%" stop-color="#ffa200" />
+    </linearGradient>
+    <style>
+      .border {
+        fill: none;
+        stroke: url(#aiTechGradientDual);
+        stroke-width: 12;
+      }
+
+      .text {
+        font: 900 200px/1.1 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+        fill: url(#aiTechGradientDual);
+        letter-spacing: 0px;
+        text-anchor: start;
+        dominant-baseline: middle;
+      }
+
+      .globeLines {
+        fill: none;
+        stroke: url(#aiTechGradientDual);
+        stroke-width: 10;
+      }
+
+      .node {
+        fill: url(#aiTechGradientDual);
+      }
+    </style>
+  </defs>
+
+  <!-- Global/network icon group -->
+  <g transform="translate(120,100)" color="black">
+    <!-- Outer globe circle -->
+    <circle class="globeLines" cx="180" cy="150" r="130" />
+    <!-- Parallels (horizontal ellipses) -->
+    <ellipse class="globeLines" cx="180" cy="150" rx="120" ry="65" />
+    <ellipse class="globeLines" cx="180" cy="150" rx="120" ry="25" />
+    <!-- Meridians (vertical arcs) -->
+    <path class="globeLines" d="M180,20 C240,20 290,85 290,150 C290,215 240,280 180,280" />
+    <path class="globeLines" d="M180,20 C120,20 70,85 70,150 C70,215 120,280 180,280" />
+
+    <!-- Network nodes -->
+    <circle class="node" cx="180" cy="20" r="10" />
+    <circle class="node" cx="70" cy="150" r="10" />
+    <circle class="node" cx="290" cy="150" r="10" />
+    <circle class="node" cx="180" cy="280" r="10" />
+    <circle class="node" cx="240" cy="95" r="9" />
+    <circle class="node" cx="120" cy="205" r="9" />
+  </g>
+
+  <!-- Text next to icon -->
+  <text class="text" x="450" y="270">AITechView</text>
+</svg>

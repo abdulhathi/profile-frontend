@@ -1,0 +1,82 @@
+[
+  {
+    "name": "My Medidata",
+    "companyName": "Medidata Solutions",
+    "dateFrom": "09/2023",
+    "dateTo": "Present",
+    "location": "",
+    "description": "myMedidata is a consumer-facing clinical trial platform that enables patients to register, provide eConsent, and participate in remote and hybrid clinical studies. The platform integrates with Medidata’s core clinical trial ecosystem to securely manage participant data, ensure regulatory compliance, and enhance patient engagement."
+  },
+  {
+    "name": "AnG & Availity portal",
+    "companyName": "Molina Healthcare",
+    "dateFrom": "01/2023",
+    "dateTo": "08/2023",
+    "location": "",
+    "description": "Integrated Availity multi-payer appeals with Molina Healthcare, enabling providers to efficiently submit and track claim appeals."
+  },
+  {
+    "name": "AnG",
+    "companyName": "Molina Healthcare",
+    "dateFrom": "01/2019",
+    "dateTo": "12/2022",
+    "location": "",
+    "description": "Enhanced Appeals & Grievances systems to improve case tracking, reporting, and auditability across Medicaid, Medicare, and Marketplace lines."
+  },
+  {
+    "name": "Pursuit",
+    "companyName": "Molina Healthcare",
+    "dateFrom": "09/2014",
+    "dateTo": "03/2019",
+    "location": "",
+    "description": "Developed a clinical data platform generating state-compliant PDFs and securely transmitting via RightFax, improving provider access to patient records."
+  },
+  {
+    "name": "Utilization Management",
+    "companyName": "Molina Healthcare",
+    "dateFrom": "03/2013",
+    "dateTo": "12/2017",
+    "location": "",
+    "description": "Built web-based workflows supporting Prior Authorization, Case Management, Pharmacy, and Behavioral Health across multiple health plans."
+  },
+  {
+    "name": "Client Implementation",
+    "companyName": "TMGHealth",
+    "dateFrom": "03/2012",
+    "dateTo": "02/2013",
+    "location": "",
+    "description": "Led Medicare/Medicaid data extracts, operational reports, and CMS-compliant interfaces for onboarding new health plan clients."
+  },
+  {
+    "name": "IMServ EDV Solution",
+    "companyName": "",
+    "dateFrom": "04/2011",
+    "dateTo": "02/2012",
+    "location": "",
+    "description": "Delivered energy data management solutions to reduce costs, control carbon emissions, and improve sustainability reporting."
+  },
+  {
+    "name": "Patient Inquiry & Portal",
+    "companyName": "MedData",
+    "dateFrom": "04/2010",
+    "dateTo": "03/2011",
+    "location": "",
+    "description": "Developed Silverlight and ASP.NET applications for patient lookups, payment tracking, and self-service portals to boost engagement."
+  },
+  {
+    "name": "Lorenzo Patient record",
+    "companyName": "DXC Technology",
+    "dateFrom": "05/2008",
+    "dateTo": "04/2010",
+    "location": "",
+    "description": "Contributed to one of the world’s leading healthcare information management systems, supporting clinicians and patients with integrated, patient-centered care solutions."
+  },
+  {
+    "name": "Web Application",
+    "companyName": "Sysmix Infotech Pvt. Ltd.",
+    "dateFrom": "12/2006",
+    "dateTo": "05/2008",
+    "location": "",
+    "description": "Built multiple web and kiosk apps: \n **CoopsLimited.com** - Business vetting platform. \n\n **Alipes Kiosk** - Touch-based foot treatment & shoe customization. \n\n **Kothattai.com** - Fleet and logistics management system"
+  }
+]

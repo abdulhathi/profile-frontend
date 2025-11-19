@@ -1,0 +1,609 @@
+{
+  "technical_skills": [
+    {
+      "group": "Programming Languages",
+      "skills": [
+        {
+          "name": "JavaScript",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "TypeScript",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Python",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "C#",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Ruby",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Java",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Go (Golang)",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "SQL",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Shell / Bash",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "AI, Data & Machine Learning",
+      "skills": [
+        {
+          "name": "Artificial Intelligence",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Machine Learning",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Large Language Models (LLMs)",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Prompt Engineering",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Retrieval-Augmented Generation (RAG)",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "LangChain",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "NumPy",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Pandas",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Matplotlib",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "BeautifulSoup",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Jupyter Notebook",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "OpenAI API",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "Backend Development",
+      "skills": [
+        {
+          "name": "Node.js",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Express.js",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "NestJS",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "FastAPI",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Flask",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Django",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "ASP.NET Core",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Ruby on Rails",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "MVC",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Dependency Injection (DI)",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "RESTful APIs",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "GraphQL APIs",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "SOAP Services",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Microservices",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "gRPC",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "JWT Authentication",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Mongoose",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "Frontend Development",
+      "skills": [
+        {
+          "name": "React.js",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Next.js",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Redux",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Zustand",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "TanStack Query",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Axios",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Tailwind CSS",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Bootstrap",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "HTML5",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "CSS3",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "SASS / SCSS",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Styled Components",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Vite",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Webpack",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Bun",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Responsive Web Design",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Accessibility (A11y)",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Material-UI",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "TypeScript Frontend",
+          "experience_years": 0,
+          "is_experienced": false
+        }
+      ]
+    },
+    {
+      "group": "Databases",
+      "skills": [
+        {
+          "name": "PostgreSQL",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "MySQL",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "SQL Server",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "MSSQL",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "MongoDB",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "DynamoDB",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Redis",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Elasticsearch",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Prisma ORM",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Entity Framework",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "TypeORM",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Database Design",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Database Optimization",
+          "experience_years": 0,
+          "is_experienced": false
+        }
+      ]
+    },
+    {
+      "group": "Cloud & DevOps",
+      "skills": [
+        {
+          "name": "AWS (VPC, EC2, Route 53, S3, Lambda)",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Azure (App Service, Functions, Blob Storage)",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "GCP",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Docker",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Kubernetes",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Kafka",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Terraform",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "GitHub Actions",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Azure DevOps",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "CI/CD Pipelines",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "TFS",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Nginx",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Certbot (SSL)",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "Architecture & Methodologies",
+      "skills": [
+        {
+          "name": "System Design",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Domain-Driven Design (DDD)",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Event-Driven Architecture",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Microservices",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "OOP",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Clean Architecture / SOLID",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "MERN",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "PERN",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Technical & System Analysis",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Event-Driven Design",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Pair Programming",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Test-Driven Development (TDD)",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Code Reviews",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Design Patterns",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Agile / Scrum",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Waterfall Model",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "Testing & QA",
+      "skills": [
+        {
+          "name": "Jest",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Cypress",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "React Testing Library",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Postman",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Swagger",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Integration Testing",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "End-to-End Testing",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "xUnit / NUnit",
+          "experience_years": 0,
+          "is_experienced": true
+        }
+      ]
+    },
+    {
+      "group": "Project Management & Collaboration",
+      "skills": [
+        {
+          "name": "Jira",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Git / GitHub / GitLab",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Slack",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
+          "name": "Confluence",
+          "experience_years": 0,
+          "is_experienced": false
+        },
+        {
+          "name": "Trello",
+          "experience_years": 0,
+          "is_experienced": false
+        }
+      ]
+    }
+  ]
+}

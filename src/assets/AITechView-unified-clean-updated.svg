@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <linearGradient id="aiTechGradientClean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0800ff" />
+      <stop offset="25%" stop-color="#0800ff" />
+      <stop offset="50%" stop-color="#0800ff" />
+      <stop offset="75%" stop-color="#0800ff" />
+      <stop offset="100%" stop-color="#0800ff" />
+    </linearGradient>
+    <style>
+      .text {
+        font: 900 220px/1.1 '';
+        letter-spacing: 0px;
+        font-family: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+      }
+
+      .text-border {
+        border-width: 2px;
+        border-color: aquamarine;
+      }
+    </style>
+  </defs>
+
+  <g fill="url(#aiTechGradientClean)" class="text-border">
+    <text class="text" x="0" y="250">AITechView</text>
+  </g>
+</svg>
