@@ -9,8 +9,8 @@ const ProfileHeaderNew = () => {
   // const headlines = ['Senior staff / Lead Full-Stack Engineer | Cloud & AI/ML | React, Node.js, .NET, Python | AWS, Azure']
   const headlines = ['Principal Architect | Senior Staff Engineer | Cloud & AI/ML | Full-Stack Leader | AWS, Azure']
   return (
-    <div className="flex flex-row gap-2">
-      <div className="flex flex-col gap-0.5 w-[80%]">
+    <div className="flex flex-row gap-2 self-start">
+      <div className="flex flex-col gap-0.5 w-[100%]">
         <div className="text-3xl uppercase font-bold leading-6">Abdul Hathi Mohamed Hussain</div>
         <div className="flex gap-1 items-center">
           {headlines.map((headline, index) => (
@@ -38,9 +38,9 @@ const ProfileHeaderNew = () => {
         </div>
         <SocialMedias />
       </div>
-      <div className="w-[20%]">
-        <WorkAuthorization />
-      </div>
+      {/* <div className="w-[20%]"> */}
+        {/* <WorkAuthorization /> */}
+      {/* </div> */}
     </div>
   )
 }
