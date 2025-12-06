@@ -3,7 +3,7 @@ import { MdAlternateEmail } from 'react-icons/md'
 import { FaLocationDot } from 'react-icons/fa6'
 import SocialMedias from '../pages/SocialMedias'
 import Headline from '../../../components/Headline'
-import WorkAuthorization from './WorkAuthorization'
+// import WorkAuthorization from './WorkAuthorization'
 
 const ProfileHeaderNew = () => {
   // const headlines = ['Senior staff / Lead Full-Stack Engineer | Cloud & AI/ML | React, Node.js, .NET, Python | AWS, Azure']
