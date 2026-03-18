@@ -209,6 +209,11 @@
       "group": "Frontend Development",
       "skills": [
         {
+          "name": "Angular & Angular SSR",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
           "name": "React.js",
           "experience_years": 0,
           "is_experienced": true
@@ -307,7 +312,11 @@
     },
     {
       "group": "Databases",
-      "skills": [
+      "skills": [{
+          "name": "Firestore",
+          "experience_years": 0,
+          "is_experienced": true
+        },
         {
           "name": "PostgreSQL",
           "experience_years": 0,
@@ -389,7 +398,7 @@
           "is_experienced": true
         },
         {
-          "name": "GCP",
+          "name": "GCP (Firestore, Bucket, Cloud Run, Cloud function, GCS-Trigger, Artifact Registry)",
           "experience_years": 0,
           "is_experienced": true
         },

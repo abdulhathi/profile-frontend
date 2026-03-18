@@ -20,7 +20,7 @@ const ProfileSideBySide = () => {
             <Experiences start={0} end={1} fontSize="11" designationFontSize="12" durationFontSize="11" />
           </div>
           <div className="w-[34%]">
-            <Skills fontSize="10" start={0} end={skills.length - 1} />
+            <Skills fontSize="10" start={0} end={skills.length - 2} />
           </div>
         </div>
       </div>
@@ -41,6 +41,7 @@ const ProfileSideBySide = () => {
             {/* <Strengths /> */}
           </div>
           <div className="flex flex-col w-[34%] gap-1">
+            <Skills fontSize="10" start={skills.length - 1} end={skills.length - 1} />
             <Projects projectsCount={10} />
           </div>
         </div>
