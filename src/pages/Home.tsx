@@ -14,7 +14,7 @@ const Home = () => {
           <h3 className="font-medium">I'm</h3>
           <h1 className="text-8xl font-extrabold uppercase">Abdul Hathi</h1>
         </div>
-        <h2 className="text-2xl font-bold">Senior Application Engineer</h2>
+        <h2 className="text-2xl font-bold">Senior Architect / Lead Engineer (AI/ML & Cloud Platform)</h2>
         <Button
           onClick={() => {
             setModelOpen(!isModelOpen)
