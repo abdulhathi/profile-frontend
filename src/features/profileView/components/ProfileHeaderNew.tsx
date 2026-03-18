@@ -13,7 +13,7 @@ const ProfileHeaderNew = () => {
   ]
   return (
     <div className="flex flex-row gap-2 self-start">
-      <div className="flex flex-col gap-2 w-[80%]">
+      <div className="flex flex-col gap-1 w-[80%]">
         <div className="text-3xl uppercase font-bold leading-6">Abdul Hathi Mohamed Hussain</div>
         <div className="flex gap-1 items-center">
           {headlines.map((headline, index) => (

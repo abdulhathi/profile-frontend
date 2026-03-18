@@ -10,7 +10,7 @@
       "Developed **event-driven pipeline** using **GCS-triggered Cloud Functions** to process ML-extracted JSON and persist results",
       "Engineered a full **HITL (Human-in-the-Loop) platform** (Angular SSR + FastAPI) for document review, edit, validation, and submission workflows",
       "Implemented **SAML-based authentication (passport.js)** and secure **GCS signed URL access** for document rendering",
-      "Integrated backend services with **external Deloitte APIs** for final data submission",
+      "Integrated backend services with **external APIs** for final data submission",
       "Containerized apps using **Docker**, deployed via **Artifact Registry + Cloud Run**, and supported **Dev/SIT/UAT releases**",
       "Contributed to **Git workflows (PRs, reviews)**, deployment coordination, and ongoing enhancements for production readiness"
     ],
