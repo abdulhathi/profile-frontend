@@ -3,14 +3,17 @@ import { MdAlternateEmail } from 'react-icons/md'
 import { FaLocationDot } from 'react-icons/fa6'
 import SocialMedias from '../pages/SocialMedias'
 import Headline from '../../../components/Headline'
-// import WorkAuthorization from './WorkAuthorization'
+import WorkAuthorization from './WorkAuthorization'
 
 const ProfileHeaderNew = () => {
   // const headlines = ['Senior staff / Lead Full-Stack Engineer | Cloud & AI/ML | React, Node.js, .NET, Python | AWS, Azure']
-  const headlines = ['Principal Architect | Senior Staff Engineer | Cloud & AI/ML | Full-Stack Leader | AWS, Azure']
+  // const headlines = ['Principal Architect | Senior Staff Engineer | Cloud & AI/ML | Full-Stack Leader | AWS, Azure']
+  const headlines = [
+    'Senior Engineer / Architect | Cloud & AI Platforms | GCP, AWS | Full-Stack Leader | Distributed Systems | FastAPI, React, Angular | Microservices',
+  ]
   return (
     <div className="flex flex-row gap-2 self-start">
-      <div className="flex flex-col gap-0.5 w-[100%]">
+      <div className="flex flex-col gap-2 w-[80%]">
         <div className="text-3xl uppercase font-bold leading-6">Abdul Hathi Mohamed Hussain</div>
         <div className="flex gap-1 items-center">
           {headlines.map((headline, index) => (
@@ -38,9 +41,9 @@ const ProfileHeaderNew = () => {
         </div>
         <SocialMedias />
       </div>
-      {/* <div className="w-[20%]"> */}
-        {/* <WorkAuthorization /> */}
-      {/* </div> */}
+      <div className="w-[20%]">
+        <WorkAuthorization />
+      </div>
     </div>
   )
 }

@@ -20,7 +20,7 @@ const Experiences = ({
   durationFontSize,
 }: ExperiencesProps) => {
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-2">
       {showTitle && <SectionTitle children="Experience" />}
       <div className="flex flex-col">
         {experiences.map(

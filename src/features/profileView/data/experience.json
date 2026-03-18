@@ -1,35 +1,68 @@
 [
   {
-    "designation": "Senior Application Engineer",
+    "designation": "Senior Architect / Lead Engineer (AI/ML & Cloud Platform)",
+    "companyName": "Quantiphi",
+    "dateFrom": "11/2025",
+    "dateTo": "Present",
+    "location": "Massachusetts, USA (Remote)",
+    "summaryPoints": [
+      "Built **document ingestion APIs (FastAPI)** to receive files/metadata, storing documents in **GCS** and structured data in **Firestore**",
+      "Developed **event-driven pipeline** using **GCS-triggered Cloud Functions** to process ML-extracted JSON and persist results",
+      "Engineered a full **HITL (Human-in-the-Loop) platform** (Angular SSR + FastAPI) for document review, edit, validation, and submission workflows",
+      "Implemented **SAML-based authentication (passport.js)** and secure **GCS signed URL access** for document rendering",
+      "Integrated backend services with **external Deloitte APIs** for final data submission",
+      "Containerized apps using **Docker**, deployed via **Artifact Registry + Cloud Run**, and supported **Dev/SIT/UAT releases**",
+      "Contributed to **Git workflows (PRs, reviews)**, deployment coordination, and ongoing enhancements for production readiness"
+    ],
+    "summaryPoints1": [
+      "Designed and developed document ingestion APIs (FastAPI) to securely receive documents and metadata, storing files in GCS and structured data in Firestore",
+      "Built event-driven processing by integrating GCS-triggered Cloud Functions to parse ML-extracted JSON outputs and persist structured data for downstream systems",
+      "Engineered a Human-in-the-Loop (HITL) platform (Angular SSR + FastAPI) enabling users to review, edit, validate, and submit extracted document data with full lifecycle control",
+      "Implemented SAML-based authentication and token validation (passport.js) to securely integrate with enterprise identity systems",
+      "Developed backend services for: 1) Fetching and updating Firestore data, 2) Managing validation rules and business logic, 3)Submitting processed data to external Deloitte APIs",
+      "Enabled secure document access using GCS Signed URLs for rendering documents in HITL UI",
+      "Designed rich UI workflows including pagination, editable forms, validation controls, and submission lifecycle (save/reset/submit states)",
+      "Collaborated with ML teams by integrating downstream outputs (JSON) into application pipelines (without direct model development)",
+      "Containerized frontend and backend applications using Docker, published to Artifact Registry, and deployed to Cloud Run",
+      "Played a key role in manual CI/CD processes, including Git branching, PR reviews, approvals, and release coordination",
+      "Supported multi-environment deployments (Dev, SIT, UAT) and actively contributing toward production rollout",
+      "Partnered with operations and client teams (LDH, Deloitte) to meet aggressive delivery timelines, including critical weekend releases",
+      "Currently driving enhancements, production readiness, and team support across deployment and feature development",
+      "Exploring secure configuration management using GCP Secret Manager"
+    ]
+  },
+  {
+    "designation": "Senior Application Engineer / Architect",
     "companyName": "Medidata Solutions",
     "dateFrom": "09/2023",
-    "dateTo": "Present",
-    "location": "Ross, United States",
+    "dateTo": "10/2025",
+    "location": "Ross, United States (Remote)",
     "summaryPoints": [
-      "**Developed and maintained scalable full-stack applications** using **React.js (Redux, Hooks)** for the front end and **Node.js, .NET Core, Python**, and Ruby on Rails for backend APIs.",
+      "**Architect and maintained scalable full-stack applications** using **React.js (Redux, Hooks)** for the front end and **Node.js, .NET Core, Python**, and Ruby on Rails for backend APIs.",
       "Supported and enhanced **myMedidata**, a consumer-facing clinical trial platform enabling remote and hybrid study participation.",
       "Deployed backend services on **AWS EC2, Lambda, API Gateway**, and configured **AWS Route 53** for domain routing and secure access.",
       "Improved API performance and observability, using JWT/OAuth2 for secure authentication.",
-      "Optimized React apps through lazy loading and state management, reducing load times by 30%.",
-      "Automated CI/CD pipelines with **GitHub Actions** and **AWS CodePipeline**, maintaining 98%+ test coverage via Cypress and Cucumber.",
+      "Optimized React apps by lazy load and state management, reducing load times by 30%.",
+      "Automated CI/CD pipelines with **GitHub Actions** and **AWS CodePipeline**, maintaining 98%+ test coverage via NUnit, Cypress and Cucumber.",
       "Collaborated with product, QA, and cloud teams to reduce backlog by 50% and accelerate delivery.",
       "Applied **AI/ML technologies** including **Large Language Models (LLMs)**, and the **Python data ecosystem** to drive automation and intelligent analytics for clinical operations.",
       "**Mentored junior engineers** in **clean coding**, and **cloud-native development**."
     ]
   },
   {
-    "designation": "Technical Lead",
+    "designation": "Technical Lead / Architect",
     "companyName": "Cognizant (Molina Healthcare, TMG Health & MedData)",
     "dateFrom": "04/2010",
     "dateTo": "08/2023",
     "location": "Long Beach, United States",
     "summaryPoints": [
-      "Developed **enterprise-scale applications** leveraging **.NET, React, Node.js, and Azure**, enhancing performance, scalability, and reliability.",
+      "Architect and developed **enterprise-scale applications** leveraging **.NET, React, Node.js, and Azure**, enhancing performance, scalability, and reliability.",
       "Designed and delivered **mission-critical REST APIs** (.NET and Node.js) for healthcare, achieving **99.99% uptime** and seamless third-party integrations that reduced development time by **35%.**",
       "Strong hands-on programming expertise in **Python, JavaScript, TypeScript, and C#**, applying best practices for maintainable and high-quality code.",
       "Spearheaded the **migration of monolithic applications to cloud-based microservices (Azure, AWS)**, cutting infrastructure costs by **25%.**",
       "Collaborated with cross-functional teams (PMs, QA, clients) to resolve technical issues and ensure timely project delivery.",
-      "Mentored and coached engineers, increasing **team velocity by 20%** and **onboarding speed by 30%**.",
+      "Mentored and coached engineers, increasing **team velocity by 20%** and **onboarding 30%**.",
+      "Written test cases using NUnit and XUnit with 98% code coverage.",
       "Led large-scale **software deployments**, ensuring efficient rollout of complex systems in production."
     ]
   },

@@ -27,8 +27,8 @@ const Experience = ({
   durationFontSize = '12',
 }: ExperienceProps) => {
   return (
-    <div className="flex flex-col gap-0.5">
-      <div className='flex flex-col'>
+    <div className="flex flex-col gap-2">
+      <div className='flex flex-col gap-2'>
         <div className="flex flex-row gap-1 items-center font-medium">
           {designation && <div className={`text-[${designationFontSize}px] font-normal'`}>{designation}</div>}
           <div className="text-[10px]">|</div>
@@ -55,7 +55,7 @@ const Experience = ({
           )}
         </div>
       </div>
-      <ul className={`text-[${fontSize}px] pl-4 list-disc list-outside`}>
+      <ul className={`flex flex-col gap-1 text-[${fontSize}px] pl-4 list-disc list-outside`}>
         {summaryPoints.map((point, index) => (
           <li key={index}>
             <ReactMarkdown>{point}</ReactMarkdown>

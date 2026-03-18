@@ -17,10 +17,13 @@ const ProfileView = () => {
           <ProfileHeader />
           <Summary />
           <Skills doubleSided={true} />
-          <Experiences start={0} end={0} />
+          <Experiences start={0} end={1} />
         </div>
         <div className="flex flex-col items-center w-[828px] h-[1026px] mt-6 px-12 py-8 gap-2">
-          <Experiences start={1} end={3} showTitle={false} />
+          <Experiences start={2} end={3} showTitle={false} />
+        </div>
+        <div className="flex flex-col items-center w-[828px] h-[1026px] mt-6 px-12 py-8 gap-2">
+          <Experiences start={2} end={3} showTitle={false} />
           <Education />
           <Certifications />
           <Activities />

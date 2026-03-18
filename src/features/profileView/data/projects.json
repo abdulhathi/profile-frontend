@@ -1,9 +1,17 @@
 [
   {
+    "name": "LDH Medicaid Doc AI",
+    "companyName": "Quantiphi",
+    "dateFrom": "11/2025",
+    "dateTo": "Present",
+    "location": "",
+    "description": "Designed and implemented a cloud-native Document AI platform to automate Medicaid document processing (MAGI, Non-MAGI forms, and paystubs). The system integrates with enterprise platforms to enable secure document ingestion, AI-driven data extraction, human validation, and downstream system integration."
+  },
+  {
     "name": "My Medidata",
     "companyName": "Medidata Solutions",
     "dateFrom": "09/2023",
-    "dateTo": "Present",
+    "dateTo": "10/2025",
     "location": "",
     "description": "myMedidata is a consumer-facing clinical trial platform that enables patients to register, provide eConsent, and participate in remote and hybrid clinical studies. The platform integrates with Medidata’s core clinical trial ecosystem to securely manage participant data, ensure regulatory compliance, and enhance patient engagement."
   },
