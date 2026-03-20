@@ -139,11 +139,6 @@
           "is_experienced": true
         },
         {
-          "name": "Flask",
-          "experience_years": 0,
-          "is_experienced": true
-        },
-        {
           "name": "Django",
           "experience_years": 0,
           "is_experienced": false
@@ -170,11 +165,6 @@
         },
         {
           "name": "RESTful APIs",
-          "experience_years": 0,
-          "is_experienced": true
-        },
-        {
-          "name": "GraphQL APIs",
           "experience_years": 0,
           "is_experienced": true
         },
@@ -406,21 +396,6 @@
           "name": "Docker",
           "experience_years": 0,
           "is_experienced": true
-        },
-        {
-          "name": "Kubernetes",
-          "experience_years": 0,
-          "is_experienced": true
-        },
-        {
-          "name": "Kafka",
-          "experience_years": 0,
-          "is_experienced": true
-        },
-        {
-          "name": "Terraform",
-          "experience_years": 0,
-          "is_experienced": false
         },
         {
           "name": "GitHub Actions",

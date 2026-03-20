@@ -18,7 +18,7 @@
   {
     "skillGroupTitle": "Backend Development & Frameworks",
     "skills": [
-      "Node.js, Express, Mongoose, FastAPI, Flask, JWT",
+      "Node.js, Express, Mongoose, FastAPI, JWT",
       "ASP.NET, MVC, .NET Core, Entity Framework, LINQ, Dependency Injection (DI)",
       "Ruby on Rails"
     ]
