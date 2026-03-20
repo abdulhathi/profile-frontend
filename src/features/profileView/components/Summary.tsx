@@ -9,7 +9,7 @@ const Summary = ({ fontSize = '12' }: SummaryProps) => {
   return (
     <div className="flex flex-col gap-1">
       <SectionTitle children="Summary" />
-      <div className={`flex flex-col gap-2 text-[${fontSize}px]`}>
+      <div className={`flex flex-col gap-0 text-[${fontSize}px]`}>
         {summaries[2].summary.map((s) => (
           <ReactMarkdown>{s}</ReactMarkdown>
         ))}

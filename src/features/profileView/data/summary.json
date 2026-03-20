@@ -13,10 +13,12 @@
   },
   {
     "summary": [
-      "Senior Architect with 15+ years of experience building **scalable cloud-native systems and AI-driven platforms across healthcare and enterprise domains**.",
-      "Currently leading development of a large-scale Document AI platform on **GCP, including document ingestion APIs, event-driven processing pipelines, and Human-in-the-Loop (HITL) validation systems integrated with enterprise platforms.**",
-      "**Strong expertise in FastAPI, Node.js, React/Angular, and cloud platforms (GCP, AWS, Azure),** with a focus on designing **secure, scalable, and high-performance distributed systems.**",
-      "Passionate about solving **complex engineering problems, mentoring teams, and delivering production-grade systems under tight timelines.**"
+      "Senior Architect with 15+ years of experience building **scalable cloud-native and full-stack applications**, with a strong focus on **modern React.js and Next.js-based frontend architectures**.",
+      "Currently leading development of a large-scale Document AI platform on GCP, including **interactive frontend applications using Angular/React patterns**, document ingestion APIs, and event-driven processing pipelines integrated with enterprise systems.",
+      "Strong expertise in **React (Hooks, component design, performance optimization), Next.js (SSR/CSR patterns), and state management solutions**, combined with backend technologies like FastAPI and Node.js.",
+      "Hands-on experience building **secure, high-performance UI applications with SSO (SAML/OAuth2/OpenID), responsive design systems, and API-driven architectures**.",
+      "Proven ability to **lead frontend engineering teams, drive code quality through reviews, define UI architecture, and collaborate cross-functionally** to deliver production-grade applications.",
+      "Passionate about building **scalable, user-centric web applications**, mentoring engineers, and delivering high-quality solutions under tight timelines."
     ],
     "display": true
   }

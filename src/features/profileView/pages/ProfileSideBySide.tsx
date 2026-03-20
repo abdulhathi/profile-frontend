@@ -17,7 +17,17 @@ const ProfileSideBySide = () => {
         <div className="flex flex-row gap-2">
           <div className="flex flex-col gap-2 w-[66%]">
             <Summary fontSize="11" />
-            <Experiences start={0} end={1} fontSize="11" designationFontSize="12" durationFontSize="11" />
+            <Experiences
+              start={0}
+              end={1}
+              fontSize="11"
+              designationFontSize="12"
+              durationFontSize="11"
+              expPoints={[
+                [0, 1000],
+                [0, 5],
+              ]}
+            />
           </div>
           <div className="w-[34%]">
             <Skills fontSize="10" start={0} end={skills.length - 2} />
@@ -26,14 +36,16 @@ const ProfileSideBySide = () => {
       </div>
       <div className="flex flex-col items-center w-[828px] h-[1026px] mt-6 px-8 py-6 gap-2">
         <div className="flex flex-row gap-2 w-full">
-          <div className="flex flex-col gap-2 w-[66%]">
+          <div className="flex flex-col gap-0 w-[66%]">
             <Experiences
-              start={2}
+              start={1}
               end={4}
               fontSize="10"
               designationFontSize="12"
               durationFontSize="11"
               showTitle={false}
+              showExperienceHeaders={[false,false]}
+              expPoints={[[],[6,100]]}
             />
             <Education />
             <Certifications />

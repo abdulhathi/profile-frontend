@@ -10,6 +10,8 @@ interface ExperiencesProps {
   fontSize?: string
   designationFontSize?: string
   durationFontSize?: string
+  showExperienceHeaders?: boolean[]
+  expPoints?: number[][]
 }
 const Experiences = ({
   start,
@@ -18,9 +20,12 @@ const Experiences = ({
   fontSize,
   designationFontSize,
   durationFontSize,
+  showExperienceHeaders,
+  expPoints,
 }: ExperiencesProps) => {
+  console.log(showExperienceHeaders, expPoints)
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-1">
       {showTitle && <SectionTitle children="Experience" />}
       <div className="flex flex-col">
         {experiences.map(
@@ -39,10 +44,12 @@ const Experiences = ({
                   fontSize={fontSize}
                   designationFontSize={designationFontSize}
                   durationFontSize={durationFontSize}
+                  showExperienceHeader={showExperienceHeaders ? showExperienceHeaders[index] : true}
+                  points={expPoints ? expPoints[index] : [0, 1000]}
                 />
-                {index < end && <Divider marginY='my-2' />}
+                {index < end && <Divider marginY="my-2" />}
               </div>
-            )
+            ),
         )}
       </div>
     </div>

@@ -14,6 +14,8 @@ type ExperienceProps = PropsWithChildren & {
   fontSize?: string
   designationFontSize?: string
   durationFontSize?: string
+  showExperienceHeader: boolean
+  points: number[]
 }
 const Experience = ({
   designation,
@@ -25,42 +27,54 @@ const Experience = ({
   fontSize = '12',
   designationFontSize = '14',
   durationFontSize = '12',
+  showExperienceHeader = true,
+  points = [0, 1000],
 }: ExperienceProps) => {
   return (
-    <div className="flex flex-col gap-2">
-      <div className='flex flex-col gap-2'>
-        <div className="flex flex-row gap-1 items-center font-medium">
-          {designation && <div className={`text-[${designationFontSize}px] font-normal'`}>{designation}</div>}
-          <div className="text-[10px]">|</div>
-          {companyName && (
-            <Headline fontSize={designationFontSize} fontMedimum={false}>
-              {companyName}
-            </Headline>
-          )}
-        </div>
-        <div className="flex flex-row gap-4 italic">
-          {(dateFrom || dateTo) && (
-            <div className="flex flex-row gap-1 items-center">
-              <FaCalendarAlt className="text-gray-600 w-2.5" />
-              <div className={`text-[${durationFontSize}px]`}>
-                {dateFrom && dateTo ? `${dateFrom} - ${dateTo}` : dateFrom ? dateFrom : dateTo}
+    <div className="flex flex-col gap-1">
+      {showExperienceHeader && (
+        <div className="flex flex-col gap-1">
+          <div className="flex flex-row gap-1 items-center font-medium">
+            {designation && <div className={`text-[${designationFontSize}px] font-normal'`}>{designation}</div>}
+            <div className="text-[10px]">|</div>
+            {companyName && (
+              <Headline fontSize={designationFontSize} fontMedimum={false}>
+                {companyName}
+              </Headline>
+            )}
+          </div>
+          <div className="flex flex-row gap-4 italic">
+            {(dateFrom || dateTo) && (
+              <div className="flex flex-row gap-1 items-center">
+                <FaCalendarAlt className="text-gray-600 w-2.5" />
+                <div className={`text-[${durationFontSize}px]`}>
+                  {dateFrom && dateTo ? `${dateFrom} - ${dateTo}` : dateFrom ? dateFrom : dateTo}
+                </div>
               </div>
-            </div>
-          )}
-          {location && (
-            <div className="flex flex-row gap-1 items-center">
-              <FaLocationDot className="text-gray-600 w-2.5" />
-              <div className={`text-[${durationFontSize}px]`}>{location}</div>
-            </div>
-          )}
+            )}
+            {location && (
+              <div className="flex flex-row gap-1 items-center">
+                <FaLocationDot className="text-gray-600 w-2.5" />
+                <div className={`text-[${durationFontSize}px]`}>{location}</div>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
-      <ul className={`flex flex-col gap-1 text-[${fontSize}px] pl-4 list-disc list-outside`}>
-        {summaryPoints.map((point, index) => (
-          <li key={index}>
-            <ReactMarkdown>{point}</ReactMarkdown>
-          </li>
-        ))}
+      )}
+      <ul className={`flex flex-col gap-0 text-[${fontSize}px] pl-4 list-disc list-outside`}>
+        {points
+          ? summaryPoints
+              .filter((_, index) => index >= points[0] && index <= points[1])
+              .map((point, index) => (
+                <li key={index}>
+                  <ReactMarkdown>{point}</ReactMarkdown>
+                </li>
+              ))
+          : summaryPoints.map((point, index) => (
+              <li key={index}>
+                <ReactMarkdown>{point}</ReactMarkdown>
+              </li>
+            ))}
       </ul>
     </div>
   )
