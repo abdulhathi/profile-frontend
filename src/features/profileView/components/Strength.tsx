@@ -25,10 +25,12 @@ const Strength = ({ name, description, icon }: StrengthProps) => {
   return (
     <div className="flex flex-row content-center gap-1">
       <div className="text-[#458EF7] pt-0.5">{iconMap[icon] || null}</div>
-      <div className="flex flex-col gap-1 text-[12px]">
-        <p className="font-medium">{name}</p>
-        <p>{description}</p>
-      </div>
+      {/* <div className="flex flex-col gap-1 text-[12px]"> */}
+      <p className='text-[12px]'>
+        <span className="font-bold">{name}:</span> {description}
+      </p>
+      {/* <p>{description}</p> */}
+      {/* </div> */}
     </div>
   )
 }

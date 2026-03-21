@@ -1,13 +1,16 @@
 import Summary from '../components/Summary'
-import Activities from './Activities'
+// import Activities from './Activities'
 import Certifications from './Certifications'
-import Education from './Educations'
+// import Education from './Educations'
 import Experiences from './Experiences'
 import Projects from './Projects'
 import Skills from './Skills'
 import './ProfileView.css'
 import skills from '../data/skills.json'
 import ProfileHeaderNew from '../components/ProfileHeaderNew'
+import Strengths from './Strengths'
+// import EducationVerticle from '../components/EducationVerticle'
+import EducationsRight from './EducationsRight'
 
 const ProfileSideBySide = () => {
   return (
@@ -20,7 +23,7 @@ const ProfileSideBySide = () => {
             <Experiences start={0} end={1} fontSize="11" designationFontSize="12" durationFontSize="11" />
           </div>
           <div className="w-[34%]">
-            <Skills fontSize="10" start={0} end={skills.length - 2} />
+            <Skills fontSize="10" start={0} end={skills.length - 1} />
           </div>
         </div>
       </div>
@@ -35,13 +38,13 @@ const ProfileSideBySide = () => {
               durationFontSize="11"
               showTitle={false}
             />
-            <Education />
+            {/* <Education /> */}
             <Certifications />
-            <Activities />
-            {/* <Strengths /> */}
+            {/* <Activities /> */}
+            <Strengths />
           </div>
           <div className="flex flex-col w-[34%] gap-1">
-            <Skills fontSize="10" start={skills.length - 1} end={skills.length - 1} />
+            <EducationsRight />
             <Projects projectsCount={10} />
           </div>
         </div>

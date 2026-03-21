@@ -578,6 +578,11 @@
           "is_experienced": true
         },
         {
+          "name": "Google Chat",
+          "experience_years": 0,
+          "is_experienced": true
+        },
+        {
           "name": "Confluence",
           "experience_years": 0,
           "is_experienced": false
